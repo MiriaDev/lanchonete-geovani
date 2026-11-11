@@ -1,0 +1,272 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff8fc;
+    color: #222;
+    text-align: center;
+}
+
+header {
+    background-color: #ff5cba;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #ed42a5;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe0f2;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    color: #ed42a5;
+    margin-bottom: 20px;
+}
+
+.inicio {
+    background-color: #ffe5f3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 42px;
+}
+
+.card span {
+    display: block;
+    color: #ff5cba;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+button {
+    background-color: #ff5cba;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d92b91;
+}
+
+.sobre {
+    background-color: #ffe5f3;
+}
+
+.sobre p {
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #ed42a5;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Segoe UI', lexend;
+    font-size: 20px;
+    margin-top: 50px; 
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.fa-phone {
+    margin-right: 0.2rem;
+}
+.fa-envelope {
+    margin-right: 0.2rem;
+}
+.fa-location-dot {
+    margin-right: 0.2rem;
+}
+
+/* CARRINHO */
+
+.carrinho {
+    background-color: #fff7fb;
+    min-height: 500px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.carrinho h2 {
+    color: #ec399b;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.item-carrinho {
+    background-color: white;
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    text-align: left;
+}
+
+.item-carrinho img {
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-produto {
+    flex: 1;
+}
+
+.info-produto h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.info-produto p {
+    color: #666;
+    margin: 7px 0;
+}
+
+.info-produto span {
+    display: block;
+    color: #ff4db8;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-remover {
+    background-color: #d92b91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-remover:hover {
+    background-color: #d92b91;
+}
+
+.resumo-carrinho {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffe3f2;
+    border-radius: 15px;
+}
+
+.resumo-carrinho h3 {
+    color: #ec399b;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn-limpar {
+    background-color: #d92b91;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    background-color: #ff4db8;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn-voltar:hover {
+    background-color: #e72c9c;
+}
+
+.carrinho-vazio {
+    font-size: 20px;
+    color: #666;
+    margin: 40px 0;
+}
